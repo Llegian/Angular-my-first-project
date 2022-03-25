@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+@include mat-core();
+
+$primary: mat-palette($mat-light-blue);
+$accent: mat-palette($mat-light-green);
+$warn: mat-palette($mat-red);
+
+$theme: mat-light-theme($primary, $accent, $warn);
+@include angular-material-theme($theme);
+
+
+$primary-dark: mat-palette($mat-light-orange);
+$accent-dark: mat-palette($mat-light-yellow);
+$warn-dark: mat-palette($mat-red);
+
+$theme: mat-dark-theme($primary-dark, $accent-dark, $warn-dark);
+.dark-theme-mode{
+    @include angular-material-theme(theme-dark);
+}

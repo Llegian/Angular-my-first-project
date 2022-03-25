@@ -1,0 +1,124 @@
+.button{
+    color: white;
+    background-color:#47B8F3;
+    margin: 2%;
+    border-radius: 8px;
+    padding: 4px;
+    width: 150px;
+    align-self: center;
+   
+
+}
+
+.container {
+    background-color: #95D6F7;
+    height: 120px;
+    width:
+    
+}
+
+.paragraph{
+    color: white;
+    text-align: right;
+    padding: 20px;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    background: #95D6F7;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.page-footer{
+    position: absolute;
+    width: 100%;
+    border: none;
+    background-color: #95D6F7;
+  
+    
+}
+
+
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: small;
+  }
+  .block {
+    width: 200px;
+  }
+
+
+  .white-icon {
+    color: white;
+}
+
+
+.white-icon svg {
+    fill: white;
+}
+
+
+.example-form-field {
+    width: 200px;
+  }
+
+
+.mat-icon {
+    vertical-align: bottom;
+}
+
+.round {
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+    width: 150px;
+    border: none;
+  
+    
+    
+}
+
+.help {cursor: help;}
+
+.background {  
+    height: 650 px;  
+    color: #fff;
+    background-image: url('/assets/Images/background.png');
+    background-size: 100 % ;  
+    background-size: cover;  
+}
+
+
+.mat-toolbar.mat-primary {
+    background: #47B8F3;
+    color: #fff;
+  }
+
+  .mat-toolbar.mat-secondary {
+    background:#042962;
+    color: #fff;
+  }
+
+  .mat-toolbar.mat-third {
+    background: #F0ACF3;
+    color: #fff;
+  }
